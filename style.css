@@ -297,5 +297,66 @@ footer{
     padding: 20px;
     background-color: #020024;
     color: #fff;
-    font-family: Arial, sans-serif;
+    font-family: "Luckiest Guy", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1em;
+}
+
+.botCont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.botCont h3{
+    font-family: "Irish Grover", cursive;
+    font-size: 2.5em;
+}
+
+.botCont button{
+    padding: 10px 20px;
+    font-size: 1.5em;
+    margin-top: 20px;
+    background-color: #fff;
+    color: rgba(0, 0, 0, 0.9);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    font-family: "Luckiest Guy", cursive;
+}
+
+.botCont button:hover{
+    transform: scale(1.1) rotate(-5deg);
+}
+
+footer p{
+    margin-top: 20px;
+}
+
+.icons a{
+    margin: 0 10px;
+    font-size: 1.5em;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+.icons a box-icon:hover{
+    transform: scale(1.2);
+}
+
+footer p span{
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+footer p span:hover{
+    color: red;
 }

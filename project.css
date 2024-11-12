@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Luckiest+Guy&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #020024;
+    overflow-x: hidden;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: #020024;
+    color: #fff;
+    font-family: "Luckiest Guy", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1em;
+}
+
+footer p{
+    margin-top: 20px;
+
+}
+
+.icons a{
+    margin: 0 10px;
+    font-size: 1.5em;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+.icons a box-icon:hover{
+    transform: scale(1.2);
+}
+
+footer p span{
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+footer p span:hover{
+    color: red;
+}
