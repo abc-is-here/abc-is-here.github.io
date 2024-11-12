@@ -54,7 +54,7 @@ h1{
 
 .content h1{
     font-size: 5em;
-    text-shadow: 0px -10px 0px #020024, -10px -7px 0px #020024, 10px -7px 0px #020024;
+    text-shadow: 0px -10px 0px #020024, -10px -7px 0px #020024, 10px -7px 0px #020024, 0px 10px 0px #020024;
 }
 
 .content p{
