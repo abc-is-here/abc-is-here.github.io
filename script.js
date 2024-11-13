@@ -1,4 +1,4 @@
-let titles = ["Coder", "Programmer", "Artist", "designer", "freelancer", "Graphics Designer", "Web Developer", "UI/UX Designer", "Frontend Developer", "Backend Developer", "Full Stack Developer", "Software Developer", "App Developer", "Game Developer", "Web Designer"];
+let titles = ["Coder", "Programmer", "Artist", "Designer", "Freelancer", "Graphics Designer", "Web Developer", "UI/UX Designer", "Frontend Developer", "Backend Developer", "Full Stack Developer", "Software Developer", "App Developer", "Game Developer", "Web Designer"];
 let updatedTitle = titles[Math.floor(Math.random() * titles.length)];
 
 setInterval(() => {
@@ -6,7 +6,7 @@ setInterval(() => {
     document.title = "Abhay Gupta | " + updatedTitle;
 }, 2000);
 
-(function() {
+(function () {
     "use strict";
     let items = document.querySelectorAll(".timeline li");
 
